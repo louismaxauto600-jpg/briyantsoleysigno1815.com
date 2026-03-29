@@ -1,4 +1,14 @@
-/* ================================
+.logo-trail {
+  position: absolute;
+  right: -120px;
+  width: 140px;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent 0%, #ffb347 30%, #ff7e00 70%, transparent 100%);
+  opacity: 0;
+  filter: blur(1px);
+  animation: bss-trail-intro 1s ease-out 0.2s forwards;
+}* ================================
    BSS 1815 GLOBAL BACKGROUND
    ORANGE + BLACK FADE
 ================================= */
